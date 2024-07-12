@@ -141,7 +141,7 @@ body {
 .booking-options {
     background-color: #f0f0f0;
     border-radius: 15px;
-    padding: 5px;
+    padding: 3px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
