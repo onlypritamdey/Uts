@@ -136,7 +136,7 @@ body {
 .booking-options button {
     flex: 1;
     color: rgb(0, 0, 0);
-    padding: 10px 70px;
+    padding: 10px 50px;
     border-radius: 15px;
     font-size: 14px;
     cursor: pointer;
