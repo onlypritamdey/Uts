@@ -126,6 +126,9 @@ body {
 .normal-booking{
     margin: 15px;
 }
+.select{
+    background-color: white;
+}
 .normal-booking p {
     padding: 10px 20px;
     color: white;
@@ -135,6 +138,9 @@ body {
 }
 
 .booking-options {
+    background-color: rgb(237, 243, 243);
+    border-radius: 15px;
+    padding: 2px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -143,14 +149,14 @@ body {
 .booking-options button {
     flex: 1;
     color: rgb(0, 0, 0);
-    padding: 10px 30px;
+    padding: 5px 30px;
     border-radius: 15px;
     font-size: 14px;
     cursor: pointer;
 }
 
 .station-input {
-    padding:10px 10%;
+    padding:10px 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -180,7 +186,8 @@ body {
 }
 
 .booking-actions {
-    padding: 0 10%;
+    gap: 25px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
 }
