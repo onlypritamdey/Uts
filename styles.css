@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,8 +6,10 @@
 }
 
 body {
+    
     width: 100%;
     height: 100%;
+    position: relative;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
@@ -89,6 +90,9 @@ body {
     border-bottom: 1px solid #ff7043;
 }
 .top-buttons i{
+   height: 50px;
+   width: 50px;
+   font-size: 25px;
    margin-bottom: 5px;
    padding:10px;
    color:white;
@@ -96,12 +100,14 @@ body {
    border-radius:50%;
 }
 .main-buttons{
+  background-color: rgb(237, 243, 243);
   padding:5px;
   gap:5px;
   display:grid;
   grid-template-columns:auto auto auto;
 }
 .main-buttons button {
+    background-color: white;
     color: #ff7043;
     border: none;
     padding: 10px;
@@ -117,14 +123,14 @@ body {
     margin-bottom: 5px;
 }
 .normal-booking{
-    margin: 5px;
+    margin: 15px;
 }
 .normal-booking p {
-    padding: 5px;
+    padding: 10px 20px;
     color: white;
     background-color: #ff7043;
     border-radius: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .booking-options {
@@ -136,7 +142,7 @@ body {
 .booking-options button {
     flex: 1;
     color: rgb(0, 0, 0);
-    padding: 10px 50px;
+    padding: 10px 30px;
     border-radius: 15px;
     font-size: 14px;
     cursor: pointer;
@@ -162,7 +168,7 @@ body {
     text-align: center;
     width: 100%;
     padding: 10px;
-    border-bottom: 2px solid #ff7043;
+    border-bottom: 1px solid #ff7043;
     border-radius: px;
     margin-bottom: 5px;
 }
