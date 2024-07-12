@@ -151,7 +151,7 @@ body {
 .booking-options button {
     flex: 1;
     color: rgb(0, 0, 0);
-    padding: 5px 40px;
+    padding: 5px 30px;
     border-radius: 17px;
     font-size: 10px;
     font-weight: 800;
@@ -167,11 +167,13 @@ body {
 }
 .station-input label{
     font-size: smaller;
+    font-weight: 600;
 }
 .station-input div {
     margin-top: 10px;
     flex: 1;
     text-align: center;
+    font-weight: bolder;
 }
 
 .station-input div input {
