@@ -3,8 +3,9 @@
   "short_name": "UTS",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#ff7e5f",
-  "theme_color": "#ff7e5f",
+  
+  "background":"linear-gradient(to right, #ff7e5f, #feb47b)",
+  
   "description": "IR Unreserved Ticketing",
   "icons": [
     {
