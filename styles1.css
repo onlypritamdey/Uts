@@ -23,7 +23,8 @@ body {
 }
 
 .header {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background-color:#ff7e5f;
+    /*background: linear-gradient(to right, #ff7e5f, #feb47b);*/
     color: white;
     display: flex;
     align-items: center;
