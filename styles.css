@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +13,7 @@ body {
     height: 100%;
     position: relative;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Apply the gradient to the body */
+    background-color: #f2f2f2;
 }
 
 .container {
@@ -23,7 +25,7 @@ body {
 }
 
 .header {
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Same gradient */
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: white;
     display: flex;
     align-items: center;
@@ -36,19 +38,16 @@ body {
     height: 40px;
     border-radius:50%;
 }
-
-.row {
+.row{
     gap:10px;
     display:flex;
     align-items:center;
 }
-
 .col {
     display:flex;
     flex-direction:column;
 }
-
-.c-all {
+.c-all{
     display:flex;
     align-items:center;
     justify-content:center;
@@ -62,8 +61,7 @@ body {
     border-radius:50%;
     background-color: #F8714E;
 }
-
-.fa-ellipsis-v {
+.fa-ellipsis-v{
     font-size:25px;
     color:black;
 }
@@ -84,37 +82,32 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-.top-buttons button {
+.top-buttons button{
     padding: 5px;
     background:transparent;
     color:black;
     font-weight:500;
 }
-
-.active {
+.active{
     border-bottom: 1px solid #ff7043;
 }
-
-.top-buttons i {
-    height: 50px;
-    width: 50px;
-    font-size: 25px;
-    margin-bottom: 5px;
-    padding:10px;
-    color:white;
-    background-color:#F8714E;
-    border-radius:50%;
+.top-buttons i{
+   height: 50px;
+   width: 50px;
+   font-size: 25px;
+   margin-bottom: 5px;
+   padding:10px;
+   color:white;
+   background-color:#F8714E;
+   border-radius:50%;
 }
-
-.main-buttons {
-    background-color: rgb(237, 243, 243);
-    padding:5px;
-    gap:5px;
-    display:grid;
-    grid-template-columns:auto auto auto;
+.main-buttons{
+  background-color: rgb(237, 243, 243);
+  padding:5px;
+  gap:5px;
+  display:grid;
+  grid-template-columns:auto auto auto;
 }
-
 .main-buttons button {
     background-color: white;
     color: #ff7043;
@@ -127,20 +120,17 @@ body {
     display: inline-block;
 }
 
-.main-buttons button i {
+ .main-buttons button i {
     color: black;
     font-size: 24px;
     margin-bottom: 5px;
 }
-
-.normal-booking {
+.normal-booking{
     margin: 15px;
 }
-
-.select {
+.select{
     background-color: white;
 }
-
 .normal-booking p {
     padding: 10px 20px;
     color: white;
@@ -175,12 +165,10 @@ body {
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
-.station-input label {
+.station-input label{
     font-size: smaller;
     font-weight: 600;
 }
-
 .station-input div {
     margin-top: 10px;
     flex: 1;
@@ -193,7 +181,7 @@ body {
     width: 100%;
     padding: 10px;
     border-bottom: 1px solid #ff7043;
-    border-radius: 0;
+    border-radius: px;
     margin-bottom: 5px;
 }
 
