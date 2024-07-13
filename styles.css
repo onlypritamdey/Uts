@@ -117,7 +117,7 @@ body {
   grid-template-rows: repeat(2, 1fr);
   
 }
-.main-buttons button {
+.main-buttons a {
     background-color: white;
     color: #ff7043;
     border: none;
