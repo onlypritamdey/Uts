@@ -106,8 +106,10 @@ body {
   background-color: rgb(237, 243, 243);
   padding:5px;
   gap:5px;
-  display:grid;
-  grid-template-columns:auto auto auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  
 }
 .main-buttons button {
     background-color: white;
