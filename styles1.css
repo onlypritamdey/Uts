@@ -150,6 +150,7 @@ button i {
     font-size: 14px;
 }
 .from,.date,.class{
+    flex-wrap:wrap;
     border-right: 1px solid gray;
 }
 .class{
