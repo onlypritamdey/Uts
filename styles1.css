@@ -53,6 +53,9 @@ body {
 .row h4{
     font-size:15px;
 }
+.row span{
+    color:black;
+}
 .col {
     display: flex;
     flex-direction: column;
