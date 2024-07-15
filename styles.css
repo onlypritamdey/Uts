@@ -56,7 +56,8 @@ body {
     flex-direction:column;
 }
 .logout i{
-    font-size:15px;
+    color:black;
+    font-size:25px;
 }
 .c-all{
     display:flex;
