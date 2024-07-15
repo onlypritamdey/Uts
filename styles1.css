@@ -121,7 +121,11 @@ label {
 span {
     color: #F87144;
 }
-
+span .c-or{
+     font-size: 7px;
+    width: 30px;
+    height: 30px;
+}
 .return-ticket, .fare {
     font-size: 14px;
     font-weight: bold;
