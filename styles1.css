@@ -129,7 +129,7 @@ span .c-or{
     font-size: 14px;
     font-weight: bold;
     color: white;
-    border: 1px solid;
+    outline: 1px solid;
 }
 
 .fare {
