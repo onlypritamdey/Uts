@@ -55,6 +55,9 @@ body {
     display:flex;
     flex-direction:column;
 }
+.logout i{
+    font-size:15px;
+}
 .c-all{
     display:flex;
     align-items:center;
