@@ -12,6 +12,7 @@ a:focus, a:active {
     padding: 0;
     border:none;
     background-color: transparent;
+    overflow:auto;
 }
 
 body {
