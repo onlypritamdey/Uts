@@ -144,7 +144,9 @@ span .c-or{
     border-bottom: 1px solid gray;
     gap: 0;
 }
-
+.details label{
+    text-align:center;
+}
 .actions {
     justify-content: space-between;
     padding: 10px;
