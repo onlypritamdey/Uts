@@ -132,7 +132,7 @@ span{
 }
 .route, .details, .booking-info {
     border-bottom: 1px solid gray;
-    gap: 0;
+    gap: 0px;
 }
 
 .actions {
